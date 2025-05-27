@@ -1,16 +1,18 @@
-# Node
+# Ignore all node_modules in any subfolder
 node_modules/
+
+# Ignore environment files
 .env
+server/.env
+client/.env
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Ignore logs
+*.log
 
-# Builds
+# Ignore build outputs
 dist/
 build/
 
-# OS
+# OS-specific files
 .DS_Store
 Thumbs.db
